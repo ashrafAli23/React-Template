@@ -9,10 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Switch>
-        <Route exact path='/React-Template/' component={Index} />
-        <Route path='/React-Template/contact' component={Contact}/>
-      </Switch>
+      <Route exact path='/' component={Index} />
+      <Route path='/contact' component={Contact}/>
     </BrowserRouter>
   );
 }
