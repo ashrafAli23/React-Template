@@ -31,7 +31,7 @@ function Navbar() {
                 </div>
                 
                 <Ulist style={ Check() }>
-                    <li><LinkItems to='/'>home</LinkItems></li>
+                    <li><LinkItems to='/React-Template'>home</LinkItems></li>
                     <li><Anchor>Work</Anchor></li>
                     <li><Anchor>Portfolio</Anchor></li>
                     <li><Anchor>Resume</Anchor></li>
