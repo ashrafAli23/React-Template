@@ -6,7 +6,7 @@ import { ProfileSkills ,ProfileStyle ,ProfileList ,ProfileItem ,ProfileSpan ,Spa
 
 function Profile() {
     return (
-        <ProfileSkills>
+        <ProfileSkills id='profile'>
             <div className="container">
                 <ProfileStyle>
                     <Title><TitleSpan>My </TitleSpan>Profile</Title>

@@ -32,10 +32,10 @@ function Navbar() {
                 
                 <Ulist style={ Check() }>
                     <li><LinkItems to='/React-Template'>home</LinkItems></li>
-                    <li><Anchor>Work</Anchor></li>
-                    <li><Anchor>Portfolio</Anchor></li>
-                    <li><Anchor>Resume</Anchor></li>
-                    <li><Anchor>About</Anchor></li>
+                    <li><Anchor href='#work' >Work</Anchor></li>
+                    <li><Anchor href='#portfolio'>Portfolio</Anchor></li>
+                    <li><Anchor href='#profile'>Profile</Anchor></li>
+                    <li><Anchor href='#about'>About</Anchor></li>
                     <li><LinkItems to='/contact'>contact</LinkItems></li>
                 </Ulist>
                 <Icon>

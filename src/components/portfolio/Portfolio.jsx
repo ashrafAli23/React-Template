@@ -27,7 +27,7 @@ function Portfolio() {
     })
 
     return (
-        <PortfolioStyle>
+        <PortfolioStyle id='portfolio'>
             <PortfolioTitle><Span>My</Span> Portfolio</PortfolioTitle>
             <PortfolioList>
                 <PortfolioItem active>All</PortfolioItem>

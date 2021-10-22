@@ -25,7 +25,7 @@ function Work() {
     })
 
     return (
-        <Workstyle>
+        <Workstyle id='work'>
             <div className="container">
                 <WorkTitle><Span>My</Span> Work</WorkTitle>
                 {DataList}

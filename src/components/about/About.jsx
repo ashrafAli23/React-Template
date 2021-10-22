@@ -3,7 +3,7 @@ import { AboutSection , AboutInfo , InfoTitle , InfoDir , InfoDesc , Span  } fro
 
 const About = () => {
     return (
-        <AboutSection>
+        <AboutSection id='about'>
             <div className="container">
                 <AboutInfo>
                     <InfoTitle><Span>This is</Span> Me</InfoTitle>
